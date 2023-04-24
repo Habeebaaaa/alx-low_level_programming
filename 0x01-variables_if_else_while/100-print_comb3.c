@@ -5,7 +5,7 @@
 *
 *description: print all different combinations of two digits.
 *
-*Return: 0 (seccess)
+*Return: 0 (success)
 */
 
 int main(void)
@@ -13,25 +13,28 @@ int main(void)
 	int digit = 0, digit2;
 
 	while (digit <= 9)
-{
-	digit2 = 0;
+	{
+		digit2 = 0;
 
-	while (digit2 <= 9)
-{
-	if (digit != digit2 && digit2 < digit2)
-{
-	putchar(digit + 48);
-	putchar(digit2 + 48);
+		while (digit2 <= 9)
+		{
+			if (digit != digit2 && digit2 < digit2)
+			{
+				putchar(digit + 48);
+				putchar(digit2 + 48);
 
-	if (digit + digit2 != 17)
-		putchar(',');
-		putchar(' ');
-}
-	digit2++;
-}
-	digit++;
-}
-putchar('\n');
+				if (digit + digit2 != 17)
+				{
 
-return (0);
+				putchar(',');
+				putchar(' ');
+				}
+			}
+			digit2++;
+		}
+		digit++;
+	}
+		putchar('\n');
+
+		return (0);
 }
