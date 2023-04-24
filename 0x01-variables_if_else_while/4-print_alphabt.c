@@ -3,7 +3,7 @@
 /**
 *main - entry point
 *
-*description: false or true validation
+*description: print the alphabet by putchar
 *
 *Return: 0 (seccess)
 */
