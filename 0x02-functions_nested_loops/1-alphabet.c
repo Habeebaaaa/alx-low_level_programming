@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
-* print_alphabet: putchar function to print alphabet a - y
-*
+ * print_alphabet - utilizes on  putchar function to print alphabet a - y
+ *
 */
 
 void print_alphabet(void)
