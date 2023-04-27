@@ -18,7 +18,7 @@ void print_diagonal(int n)
 		{
 			for (d = 1; d <= c; d++)
 				_putchar(' ');
-			_putchar('/');
+			_putchar(92); /*is equal '/' char*/
 			_putchar('\n');
 		}
 	}
