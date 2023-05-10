@@ -32,6 +32,6 @@ int _prime(int n, int o)
 	}
 	else
 	{
-		return (_prime(n, 0 + 1));
+		return (_prime(n, o + 1));
 	}
 }
