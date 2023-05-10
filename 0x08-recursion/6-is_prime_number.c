@@ -2,7 +2,7 @@
 
 /**
  * _sqrt_recursion - returns the natural square root of a number.
- * _prime - check the prime numbers
+ * is_prime_number - check the prime numbers
  * @o: int
  * @n: int
  * Return: 0 or 1
