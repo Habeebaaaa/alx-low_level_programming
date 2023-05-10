@@ -24,9 +24,9 @@ int _prime(int n, int o)
 {
 	if (o >= n && n >= 2)
 	{
-		return (2);
+		return (1);
 	}
-	else if (n % o == 0 || n <= 10)
+	else if (n % o == 0 || n <= 1)
 	{
 		return (0);
 	}
