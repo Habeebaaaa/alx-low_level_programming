@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns the natural square root of a number.
  * is_prime_number - check the prime numbers
  * @o: int
  * @n: int
@@ -9,7 +8,7 @@
  */
 
 int _prime(int n, int o);
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
 	return (_prime(n, 2));
 }
