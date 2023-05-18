@@ -11,11 +11,10 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *ptr = s;
-
-	while (n--)
-		*s++ = b;
-	return (ptr);
+	unsigned int l;
+	for (l = 0; l < n; l++)
+		s[l] = b;
+	return (s);
 }
 /**
  * *_calloc - function that allocates memory for an array, using malloc
